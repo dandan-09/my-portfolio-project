@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ffe5e8a4;
   --secondary-color: #ffa393f9;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1,
@@ -49,6 +50,7 @@ p {
   border-radius: 4px;
   padding: 10px 25px;
   font-size: 20px;
+  box-shadow: var(--box-shadow);
 }
 
 .carousel {
@@ -90,6 +92,31 @@ p {
   font-size: 16px;
 }
 
+.work-h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.work-image {
+  max-width: 400px;
+}
+
+.work-content {
+  padding-top: 50px;
+}
+
+.work-content h2 {
+  font-size: 35px;
+}
+
+.work-content p {
+  font-size: 20px;
+}
+
+.weather-project-content {
+  padding-bottom: 50px;
+}
+
 @media (max-width: 600px) {
   .hero {
     padding: 0;
@@ -119,5 +146,19 @@ p {
 
   .about-h1 {
     font-size: 50px;
+  }
+}
+
+@media (max-width: 912px) {
+  .work-content {
+    text-align: center;
+  }
+
+  .work-content h2 {
+    font-size: 30px;
+  }
+
+  .work-h1 {
+    font-size: 40px;
   }
 }
