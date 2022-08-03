@@ -92,7 +92,7 @@ p {
   font-size: 16px;
 }
 
-.work-h1 {
+.work-header {
   font-size: 50px;
   text-align: center;
 }
@@ -115,6 +115,17 @@ p {
 
 .weather-project-content {
   padding-bottom: 50px;
+}
+
+.contact-link {
+  text-decoration: none;
+  font-style: italic;
+  color: #6d757d;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 600px) {
@@ -144,7 +155,11 @@ p {
     margin: 0;
   }
 
-  .about-h1 {
+  .about-header {
+    font-size: 50px;
+  }
+
+  .contact-header {
     font-size: 50px;
   }
 }
@@ -158,7 +173,7 @@ p {
     font-size: 30px;
   }
 
-  .work-h1 {
+  .work-header {
     font-size: 40px;
   }
 }
