@@ -53,6 +53,10 @@ p {
   box-shadow: var(--box-shadow);
 }
 
+.btn:hover {
+  transition: all 200ms ease-in-out;
+}
+
 .carousel {
   max-width: 500px;
   margin: 0 auto;
@@ -67,6 +71,10 @@ p {
 
 .navbar-custom {
   background: white;
+}
+
+nav li a:hover {
+  color: var(--secondary-color) !important;
 }
 
 .projects-button {
