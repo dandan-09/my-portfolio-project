@@ -29,7 +29,7 @@ p {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 15px 0;
+  padding: 80px 0 15px 0;
 }
 
 .computer-picture {
@@ -86,6 +86,7 @@ nav li a:hover {
   max-width: 250px;
   border-radius: 10%;
   margin: 80px;
+  padding-top: 10px;
 }
 
 .about-section {
@@ -100,9 +101,14 @@ nav li a:hover {
   font-size: 16px;
 }
 
+.about-header {
+  padding-top: 80px;
+}
+
 .work-header {
   font-size: 50px;
   text-align: center;
+  padding-top: 80px;
 }
 
 .work-image {
@@ -134,6 +140,10 @@ nav li a:hover {
 .contact-link:hover {
   text-decoration: underline;
   color: var(--secondary-color);
+}
+
+.contact-header {
+  padding-top: 80px;
 }
 
 @media (max-width: 600px) {
