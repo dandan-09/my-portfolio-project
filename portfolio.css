@@ -51,10 +51,12 @@ p {
   padding: 10px 25px;
   font-size: 20px;
   box-shadow: var(--box-shadow);
+  transition: all 200ms ease-in-out;
 }
 
 .btn:hover {
-  transition: all 200ms ease-in-out;
+  color: black;
+  background: var(--primary-color);
 }
 
 .carousel {
@@ -146,6 +148,28 @@ nav li a:hover {
   padding-top: 80px;
 }
 
+footer .social-links {
+  background: var(--primary-color);
+  padding: 15px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+footer .social-links a {
+  margin: 0 30px;
+  color: #6d757d;
+  background: white;
+  padding: 12px 15px;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: all 200ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--secondary-color);
+}
+
 @media (max-width: 600px) {
   .hero {
     padding: 0;
@@ -171,6 +195,7 @@ nav li a:hover {
 
   .headshot {
     margin: 0;
+    margin-top: 30px;
   }
 
   .about-header {
@@ -179,6 +204,10 @@ nav li a:hover {
 
   .contact-header {
     font-size: 50px;
+  }
+
+  .work-header {
+    padding-top: 150px;
   }
 }
 
